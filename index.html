@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ITWP Project</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="src/index.js" defer></script>
+    <link rel="stylesheet" href="src/leaflet/leaflet.css" />
+    <script src="src/leaflet/leaflet.js"></script>
+  </head>
+
+  <body>
+    <h2>Statistic portal of Finnish Provinces</h2>
+    <div id="map"></div>
+    <br />
+
+    <div>
+      <p>Select a layer and hover or click areas to get more information!</p>
+      <label>Choose to show more data on map:</label>
+      <select id="selectcity">
+        <option value="loc1">Castles</option>
+        <option value="loc2">Universities</option>
+      </select>
+      <button id="showonMap">Show on map</button>
+    </div>
+    <br />
+    <br />
+    <div id="maakuntaform">
+      <h3>More data about the Provinces</h3>
+      <h4>CO2 Emissions in years 20011-2020</h4>
+      <div class="dropdown">
+        <select id="selectProvince"> </select>
+        <select id="selectEmissionClass"> </select>
+      </div>
+      <button id="submit-data1">Submit</button>
+    </div>
+    <div id="chart"></div>
+    <br />
+    <div id="buildingsform">
+      <h4>Number of buildings in years 2005-2021</h4>
+      <div class="dropdown">
+        <select id="selectProvince2"> </select>
+        <select id="selectHeatMode"> </select>
+        <select id="selectUseMode"> </select>
+      </div>
+      <button id="submit-data2">Submit</button>
+    </div>
+    <div id="chart2"></div>
+    <h4>The population of the Provinces by age groups</h4>
+    <div id="chart3"></div>
+    <div class="export">
+      <label>Export chart:</label>
+      <select id="selectExport">
+        <option value="chartone">CO2 Chart</option>
+        <option value="charttwo">Buildings Chart</option>
+        <option value="chartthree">Population Chart</option>
+      </select>
+      <button id="export">Export</button>
+    </div>
+  </body>
+</html>
