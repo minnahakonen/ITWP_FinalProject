@@ -1,0 +1,53 @@
+I chose to create a statistical portal of Finnish geographies for the project. The whole project was created with CodeSandbox which I used for coding tasks during this course. I also used Leaflet and Frappe libraries to create a map and charts.
+
+I started creating the project by searching interesting datasets from Statistics Finland’s free-of-charge statistical databases. I found multiple datasets which I found extremely interesting and selecting just a few of them was challenging. I decided to build the statistical data around the Finnish provinces, which was natural because the provinces were easy to show on the map accordingly to the earlier exercise. 
+
+The density map I created partly by following instructions from the Leaflet’s tutorial, but of course, it also needed my own modifying and calculating efforts as well as working with the relevant data.
+
+Two of the three charts I created with dynamic user value API query, which I found a really cool feature. If there would have been more time, I still would have improved the buildings' quantity chart a little, by choosing provinces in labels and putting years in user selection, so that would have been more interesting after all.
+
+I also realize that my code still would need a lot of improving and especially optimizing, e.g. I assume that many solutions would have been possible to create much more efficient. I also placed several API calls and other stuff in the same functions, while it would have been clearer to separate them all. In any case, my solution works and does what I intended.
+
+Finally, there were also several challenges during the project, e.g. I tried to create drag and drop features but found running out of time and didn’t manage to get that work. Also creating charts after a user clicks the area on the map was challenging and I did not get that work before time was out. 
+
+Below is my point proposal with justification.
+
+
+Well-written report: 2 points
+(In the report there are described what was done, what tools were used, and how many points I would like to get from the project with justification.)
+
+
+Application is responsive and can be used on both desktop and mobile environments: 4 points
+(Tested with desktop, different window sizes, and with mobile phone and application is responsive.)
+
+Application work on Firefox, Safari, Edge, and Chrome: 2 points
+(Tested and works with Firefox, Safari, Edge, and Chrome.)
+
+The application show relevant data on a map and user has change to change the data: 3 points
+(Data is relevant and there are utilized multiple data sources. Users can change the data by choosing options.)
+
+The application show relevant data on a chart and user has chance to change the data: 3 points
+(Data is significant and there are utilized multiple data sources. User has various opportunities to choose the data they wish.)
+
+User is able to switch between different layers of data on map: 2 points
+(There are 2 base map layers and three overlay map layers to switch.)
+
+By clicking the map user has an option to get to additional data covering that area: 2 points
+(Users don’t get charts, so I ask for only 2 points here, instead of four, but there are different kinds of additional information available by clicking the map, so at least two points are well justified in my opinion.)
+
+There are more than two items of data available: 4 points
+(There are many items of data available.)
+
+Able to download the visualization as an SVG image: 2 points
+(Users can choose which chart visualization they want to export and the selected one is exported as an SVG image.)
+
+Additionally:
+
+There are multiple API calls (many more than two which was the minimum requirement), some queries are dynamic with user input values and data is utilized versatile: 4 points
+
+
+Density map: 2 points
+(Density map is a cool feature and a lot of my effort was used to create it to work.)
+
+
+ 
